@@ -1,11 +1,11 @@
-let person = {
+const person = {
   firstName: 'Jon',
   lastName: 'Snow',
   hobby: 'King in the North',
 };
 console.log(person);
 
-let fullName =
+const fullName =
   "The person's name is " + person.firstName + ' ' + person.lastName + '.';
 console.log(fullName);
 
